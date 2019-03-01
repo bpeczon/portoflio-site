@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+/*	background-color:#ff6f69;*/
+}
+.bg-tab{
+  background-color:#ffeead;
+}
+
+.bg-text{
+	background-color:#ff6f69;
+}
+
+#navbar {
+  width: 100%;
+  overflow: hidden;
+  background-color:#0e9aa7;
+}
+
+#navbar a {
+  float: center;
+  display: inline-block;
+  color: #ffcc5c;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.pin-t{
+  top:75%;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
